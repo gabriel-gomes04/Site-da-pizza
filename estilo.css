@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 1200px;
+    width: 100%;
+    background-image: url(jaozindocorre.png); 
+    background-color: #e7e7b1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+@font-face {
+    font-family: fonte_pizza;
+    src: url("Boba Cups.otf");
+}
+
+nav ul {
+    height: 120px;
+    width: 100%;
+    background-color: #f5ca85;
+    display: flex;
+    color: rgb(16, 16, 17);
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    font-style: oblique;
+    font-family: fonte_pizza;
+
+
+}
+@font-face {
+    font-family: fonte_pizza2;
+    src: url(Samantha\ Signature.otf);
+}
+h1{
+ color: rgb(243, 9, 21);
+ text-align: center;
+ font-family: fonte_pizza2;
+ font-style: oblique;
+ font-size: 50px;
+}
+h2{
+    color: black;
+    text-align: center;
+    font-family: fonte_pizza;
+
+}
